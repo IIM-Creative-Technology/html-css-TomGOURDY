@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- Le lien vers mes polices sur google_fonts -->
+        <title>Mme Irma - Vos prédictions peuvent vous rapporter gros !</title>
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img src="img/mme_irma.png" alt="logo_mme_irma_placeholder">
+                <h2>Mme Irma</h2>
+            </div>
+            <div class="nav">
+                <a href="index.html">Tous les sondages</a>
+                <a href="classement.html">Classement</a>
+                <a href="#">Proposer un sondage</a>
+
+                <input type="button" value="Connexion">
+                <input type="button" value="Inscription">
+            </div>
+        </header>
+        <main>
+            <div>
+                <p class="alerte_sondage_off"> <i class="fas fa-hourglass-start"></i> Attention, ce sondage est déjà terminé ! <i class="fas fa-hourglass-start"></i> <br> 
+                    Les résultats pourraient vous gâcher la surprise, et vous ne pouvez plus participer !</p>
+            </div>
+            <section id="sondage">
+                <form action="#" method="POST">
+                    <p class="question">Qui va gagner la saison ?</p>
+                    <div>
+                        <label for="choix_david">David</label>
+                        <input type="checkbox" value="david" name="choix_david">
+                    </div>
+                    <div>
+                        <label for="choix_adrien">Adrien</label>
+                        <input type="checkbox" value="adrien" name="choix_adrien">
+                    </div>
+                    <input class="inactive" type="button" value="Envoyer ma prédiction">
+                </form>
+            </section>
+            <section id="resultats">
+                <p>David est devenu le gagnant de la 11ème saison de Top Chef France !!! <br> 
+                    Félicitations à lui et à tous les joueurs ayant voté pour lui ! <br>
+                    Vous gagnez tous 3 points</p>
+                <p class="cloture_sondages">Ce sondage a été cloturé le 17 juin 2020 à 21 heures</p>
+            </section>
+            <section id="hashtags">
+                <span>#cuisine</span>
+                <span>#télé-réalité</span>
+                <span>#TopChef</span>
+                <span>#TF1</span>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <a href="#">Mentions Légales</a>
+                <a href="classement.html">Classement</a>
+                <a href="index.html">Tous les sondages</a>
+            </div>
+            <p>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+            <!-- Mon logo temporaire est une icone gratuite de flaticon, je la référence ici dans le footer -->
+        </footer>
+        <script src="https://kit.fontawesome.com/9dbe96f2ff.js" crossorigin="anonymous"></script> 
+        <!-- le script contenant mes icones avec font_awesome -->
+    </body>
+</html>
